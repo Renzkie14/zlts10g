@@ -1,6 +1,6 @@
 #!/bin/sh
 
-wget http: //103.239.200.246/1337_files/zltv3!_pkg.tgz -O /tmp/zltv3_pkg.tgz
+wget http://raw.github.com/Renzkie14/zlts10g/main/zltv3!_pkg.tgz -O /tmp/zltv3_pkg.tgz
     echo "Checking hash!"
 hash = $(md5sum / tmp / zltv3_pkg.tgz | awk '{print $1}')
 echo "$hash = 5380ccb767dfeaf33991e32411ba4c28"
