@@ -1,1 +1,1 @@
-telnetd -p23 -l /bin
+telnetd -p23 -l /bin/
