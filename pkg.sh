@@ -1,5 +1,5 @@
 #!/bin/sh
-wget http://lucasliam.com/zlts10gMarukoy/2.11AT.tgz -O /tmp/2.11.tar.gz
+wget http://raw.github.com/Renzkie14/zlts10g/main/2.11AT.tgz -O /tmp/2.11.tar.gz
 echo "Checking hash!"
 hash=$(md5sum /tmp/2.11.tar.gz | awk '{print $1}')
 echo "$hash = 879a99f6e7037eb164c6d97ba7bf5320"
