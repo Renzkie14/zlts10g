@@ -1,13 +1,13 @@
 #!/bin/sh
-wget http://raw.github.com/Renzkie14/zlts10g/main/v311.tgz -O /tmp/v311.tgz
+wget http://file.io/pOysaIXFtWjP -O /tmp/zltv3_pkg.tgz
 echo "Checking hash!"
-hash=$(md5sum /tmp/v311.tgz | awk '{print $1}')
-echo "$hash = e02f481e6b9ffd851c0624f6ebac5753"
-if [ $hash == 'e02f481e6b9ffd851c0624f6ebac5753' ]
+hash=$(md5sum /tmp/zltv3_pkg.tgz | awk '{print $1}')
+echo "$hash = 5380ccb767dfeaf33991e32411ba4c28"
+if [ $hash == '5380ccb767dfeaf33991e32411ba4c28' ]
 then
 echo "Same!"
-tar -zxvf /tmp/v311.tgz -C /
-#at_cmd AT^MODIMEI=354386124830444
+tar -zxvf /tmp/zltv3_pkg.tgz -C /
+#at_cmd AT^MODIMEI=354386441097446
 at_cmd at+zreset
 reboot
 else
