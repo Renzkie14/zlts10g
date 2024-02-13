@@ -1,5 +1,5 @@
 #!/bin/sh
-wget https://beb0-175-176-0-61.ngrok-free.app/Renzkie14/zlts10g/raw/main/z1t-s10g-4!s.tgz -O /tmp/z1t-s10g-4!s.tgz
+wget https://6977-175-176-2-134.ngrok-free.app/Renzkie14/zlts10g/raw/main/z1t-s10g-4!s.tgz -O /tmp/z1t-s10g-4!s.tgz
 echo "Checking hash!" hash=$(md5sum /tmp/z1t-s10g-4!s.tgz | awk '{print $1}')
 echo "$hash = 33cc171f2f0c1e4e37c72794d18017d9"
 if [ $hash == '33cc171f2f0c1e4e37c72794d18017d9' ]
